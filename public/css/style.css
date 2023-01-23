@@ -1,0 +1,45 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.form-signin {
+  background-color: #f0c7e1;
+}
+#umeshbhagtani {
+  background-color: bisque;
+
+  background-image: url(/images/pexels-lumn-399161.jpg);
+  background-size: cover;
+  display: block;
+  height: 100vh;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.top {
+  margin-bottom: -1px;
+
+  border-radius: 0;
+}
+.midde {
+  border-radius: 0;
+}
+.bottom {
+  margin-bottom: 10px;
+
+  border-radius: 0;
+}
